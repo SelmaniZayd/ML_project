@@ -1,13 +1,6 @@
+# Le docker ne marche pas !!! à voir dans le futur
 version: "3.8"
 services:
-  # front:
-  #   build: ./web/front
-  #   ports:
-  #     - '3000:3000'
-  #   volumes:
-  #     - './web/front:/usr/src/app'
-  #   networks:
-  #     - my-network
   back:
     build: ./web/back
     ports:
@@ -18,7 +11,14 @@ services:
       FLASK_ENV: development
     networks:
       - my-network
-
+  # front:
+  #   build: ./web/front
+  #   ports:
+  #     - '3000:3000'
+  #   volumes:
+  #     - './web/front:/usr/src/app'
+  #   networks:
+  #     - my-network
 networks:
   my-network:
     driver: bridge
