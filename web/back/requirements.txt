@@ -1,9 +1,0 @@
-scipy
-numpy
-scikit-learn
-Flask==1.1.2
-flask-restful==0.3.8
-flask-serialize==1.4.0
-flask-cors==3.0.9
-joblib==1.0.1
-
