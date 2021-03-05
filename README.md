@@ -12,7 +12,9 @@ Une petite documentation du projet a été rédiger sur le document documentatio
 ## lancer l'application web
 
 ### lancer le back
-- naviguer dans /web/back puis lancez la commande " flask run "
+- naviguer dans /web/back puis lancez les commandes
+* set FLASK_APP=app.py
+* flask run
 - le serveur sera hoster sur localhost:5000
 
 ### lancer le front
