@@ -1,5 +1,5 @@
 # ML_project
-Une petite documentation du projet a été rédiger sur le document documentation.docx
+Une petite documentation du projet a été rédiger sur le document documentation.pdf
 - Créer votre venv
 * "python -m venv venv"
 * "venv\Scripts\activate"
