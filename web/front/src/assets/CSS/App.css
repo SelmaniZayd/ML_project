@@ -1,0 +1,47 @@
+.content-forms{
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: orange;
+}
+form{
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+  background-color: #fbfbfb;
+  -webkit-box-shadow: 3px 3px 7px 1px #c1bebb;
+  -moz-box-shadow: 3px 3px 7px 1px #c1bebb;
+  filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=3, OffY=3, Color='#c1bebb', Positive='true');
+  zoom:1;
+  box-shadow: 3px 3px 7px 1px #c1bebb;
+  -moz-border-radius:12px;
+  -webkit-border-radius:12px;
+  border-radius:12px;
+  padding: 20px
+}
+form > h2 {
+  margin-bottom: 20px;
+}
+input, select {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 10px;
+  border: none;
+  background: #0e060617;
+  border-radius: 12px;
+}
+input{
+  width: calc(100% - 20px);
+}
+input[type="radio"]{
+  width: 10px;
+  margin-right: 10px;
+}
+input[type="submit"]{
+  color:aliceblue;
+  outline: none;
+  background: orange;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
