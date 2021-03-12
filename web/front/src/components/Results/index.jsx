@@ -34,12 +34,11 @@ const Results = (props) => {
                 </div>
             </div>
             <div className="results_final">
-                Final vote is {handleVotes()} : {handleVotes() == 0 ? "This person will not change job":"this person will change job"}
+                Final vote is {handleVotes()} : {handleVotes() === 0 ? "This person will not change job":"this person will change job"}
             </div>
 
         </div>
     );
 }
-
 
 export default Results;

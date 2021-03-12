@@ -4,10 +4,18 @@ import './assets/CSS/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import {
+  Route,
+  Switch,
+  BrowserRouter
+} from 'react-router-dom';
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <BrowserRouter>
+        <Switch>
+            <Route path="/" name="Home" component={App}/>
+        </Switch>
+    </BrowserRouter>,
   document.getElementById('root')
 );
 

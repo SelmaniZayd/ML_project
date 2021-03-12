@@ -15,7 +15,6 @@ header h1{
 header img{
   width: 50px;
 }
-
 .content-button{
   display: grid;
   place-items: center;
@@ -122,4 +121,44 @@ input[type="submit"]{
 .results_final {
   margin-top: 40px;
   font-size: 30px;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  margin: 0px 10px;
+}
+
+.content-home{
+  width: 90%;
+  margin: 30px auto;
+}
+
+.content-home h1, .content-home h4{
+  margin-bottom: 20px;
+}
+
+.equipe{
+  display: flex;
+}
+
+.equipe > div > p {
+  margin-bottom: 10px;
+}
+
+.title-equipe{
+  margin-right: 10px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #d2d2d2;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
 }
