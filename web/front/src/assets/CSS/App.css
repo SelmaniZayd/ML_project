@@ -1,3 +1,6 @@
+.App {
+  min-height: 30vh;
+}
 header{
   display: flex;
   justify-content: space-between;
@@ -152,7 +155,7 @@ input[type="submit"]{
 }
 
 .footer {
-  position: fixed;
+  margin-top: 50vh;
   bottom: 0;
   left: 0;
   width: 100%;
