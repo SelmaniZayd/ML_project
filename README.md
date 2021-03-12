@@ -25,3 +25,6 @@ Commencer par :
 - naviguer dans /web/front puis lancez le commande "npm install && npm start"
 - le serveur sera hoster sur localhost:3000
 
+# RESULATS
+CNN from scratch => 34%
+Transfer Learning => 62%
